@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let CardNotification = "CardNotification"
+public let CardNotification = "CardNotification"
 
 public struct CardStack<ID: Hashable, Data: RandomAccessCollection, Content: View>: View where Data.Index: Hashable {
 
